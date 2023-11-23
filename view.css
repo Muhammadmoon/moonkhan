@@ -1,0 +1,54 @@
+/* Basic styles for the table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Styles for the header row */
+table thead th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Alternate row colors */
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Additional styling for the school name */
+table tbody tr:first-child th {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+}
+
+/* Profile picture styling */
+table tbody tr:nth-child(2) td:last-child img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Result styling */
+table tbody tr:last-child td {
+    font-weight: bold;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+
